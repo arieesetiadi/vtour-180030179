@@ -39,6 +39,12 @@
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800&display=swap"
 			rel="stylesheet"
 		/>
+
+		<style>
+			* {
+				scroll-behavior: smooth;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -109,7 +115,7 @@
 								<a href="#beranda" class="">Beranda</a>
 							</li>
 							<li class="">
-								<a href="informasi" class="">Informasi</a>
+								<a href="#informasi" class="">Informasi</a>
 							</li>
 							<li class="">
 								<a href="#keunikan" class="">Keunikan</a>
@@ -331,7 +337,7 @@
 									<i class="flaticon-house"></i>
 									<h4>Pura Batur <span>03</span></h4>
 									<p>
-										Preserved believing extremity. Easy mr pain felt in. Too
+										Preserved believing extremity. mr pain felt in. Too Ease
 										northward affection additions nay. He no an nature ye talent
 										houses wisdom vanity denied.
 									</p>
@@ -365,18 +371,19 @@
 							</div>
 						</div>
 					</div>
+					<span id="galeri"></span>
 				</div>
 			</div>
 		</div>
 		<!-- End Keunikan -->
 
 		<!-- Start Galeri  -->
-		<div id="galeri" class="portfolio-area half-bg-dark default-padding-bottom">
+		<div class="portfolio-area half-bg-dark default-padding-bottom">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 offset-lg-2">
 						<div class="site-heading text-center">
-							<h2>Galeri</h2>
+							<h2 class="mt-5">Galeri</h2>
 							<p>
 								Kumpulan foto serta video dari Puri Agung Kerambitan, Tabanan,
 								Bali.
@@ -388,6 +395,24 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="portfolio-carousel owl-carousel owl-theme">
+								<!-- Ancak Saji -->
+								<div class="item">
+									<div class="thumb">
+										<div class="thumb-box">
+											<img src="assets/img/galeri/AWP09483.jpg" alt="Thumb" />
+											<a
+												href="https://www.youtube.com/watch?v=4ky5lAcxFUg"
+												class="popup-youtube light video-play-button item-center"
+											>
+												<i class="fa fa-play"></i>
+											</a>
+										</div>
+									</div>
+									<div class="info">
+										<h5><a href="#">Puri Agung Kerambitan</a></h5>
+									</div>
+								</div>
+
 								<!-- Ancak Saji -->
 								<div class="item">
 									<div class="thumb shadow rounded">
@@ -463,9 +488,8 @@
 		</div>
 		<!-- End Galeri -->
 
-		<!-- Start Team Area 
-    ============================================= -->
-		<div class="team-area default-padding-top bottom-less bg-gray">
+		<!-- Start Tentang  -->
+		<div id="tentang" class="team-area default-padding-top bottom-less bg-gray">
 			<!-- Fixed Shape  -->
 			<div class="fixed-shape">
 				<img src="assets/img/shape/4.svg" alt="Shape" />
@@ -475,33 +499,29 @@
 				<div class="row">
 					<div class="col-lg-8 offset-lg-2">
 						<div class="site-heading text-center">
-							<h4>Meet our experts</h4>
-							<h2>Team Members</h2>
+							<h2>Tentang</h2>
 							<p>
-								While mirth large of on front. Ye he greater related adapted
-								proceed entered an. Through it examine express promise no. Past
-								add size game cold girl off how old
+								Pihak yang terlibat dalam penelitian yang berjudul "Aplikasi
+								Virtual Tour 360 Degree Pengenalan Objek Wisata Puri Agung
+								Kerambitan Berbasis Web".
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="team-items text-center">
 					<div class="row">
-						<!-- Single Item -->
+						<!-- Dospem I -->
 						<div class="col-lg-4 col-md-6 single-item">
 							<div class="item">
 								<div class="thumb">
 									<img src="assets/img/800x800.png" alt="Thumb" />
 									<div class="info">
-										<h4>Jessica Jones</h4>
-										<span>Founder of Factry</span>
+										<h4>I GEDE HARSEMADI, S.Kom., M.T.</h4>
+										<span>Dosen Pembimbing I</span>
 									</div>
 									<div class="overlay text-light">
-										<h4>Jessica Jones</h4>
-										<p>
-											Btuff sight equal of my woody. Him children bringing
-											goodness suitable she entirely put far daughter.
-										</p>
+										<h4>I GEDE HARSEMADI, S.Kom., M.T.</h4>
+										<p>Dosen Pembimbing I</p>
 									</div>
 								</div>
 								<div class="social">
@@ -519,22 +539,20 @@
 								</div>
 							</div>
 						</div>
-						<!-- End Single Item -->
-						<!-- Single Item -->
+						<!-- End Dospem I -->
+
+						<!-- Dospem II -->
 						<div class="col-lg-4 col-md-6 single-item">
 							<div class="item">
 								<div class="thumb">
 									<img src="assets/img/800x800.png" alt="Thumb" />
 									<div class="info">
-										<h4>Munia Ankor</h4>
-										<span>Architect</span>
+										<h4>I KOMANG TRY ADI STANAYA, S.Kom., M.Kom</h4>
+										<span>Dosen Pembimbing II</span>
 									</div>
 									<div class="overlay text-light">
-										<h4>Munia Ankor</h4>
-										<p>
-											Btuff sight equal of my woody. Him children bringing
-											goodness suitable she entirely put far daughter.
-										</p>
+										<h4>I KOMANG TRY ADI STANAYA, S.Kom., M.Kom</h4>
+										<p>Dosen Pembimbing II</p>
 									</div>
 								</div>
 								<div class="social">
@@ -552,22 +570,20 @@
 								</div>
 							</div>
 						</div>
-						<!-- End Single Item -->
-						<!-- Single Item -->
+						<!-- End Dospem II -->
+
+						<!-- Mahasiswa -->
 						<div class="col-lg-4 col-md-6 single-item">
 							<div class="item">
 								<div class="thumb">
 									<img src="assets/img/800x800.png" alt="Thumb" />
 									<div class="info">
-										<h4>Ahmed Kamal</h4>
-										<span>Engineering Officer</span>
+										<h4>I PUTU GEDE ADITYA WIGUNA</h4>
+										<span>Mahasiswa - 180030179</span>
 									</div>
 									<div class="overlay text-light">
-										<h4>Ahmed Kamal</h4>
-										<p>
-											Btuff sight equal of my woody. Him children bringing
-											goodness suitable she entirely put far daughter.
-										</p>
+										<h4>I PUTU GEDE ADITYA WIGUNA</h4>
+										<p>Mahasiswa - 180030179</p>
 									</div>
 								</div>
 								<div class="social">
@@ -585,343 +601,17 @@
 								</div>
 							</div>
 						</div>
-						<!-- End Single Item -->
+						<!-- End Mahasiswa -->
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- End Team Area -->
+		<!-- End Tentang -->
 
-		<!-- Start Testimonials Area 
-    ============================================= -->
-		<div class="testimonials-area default-padding">
-			<div class="container">
-				<div class="testimonial-items">
-					<div class="row">
-						<div class="col-lg-5 title">
-							<h2>What Customers Say</h2>
-							<p>
-								Whether at dearest certain spirits is entered in to. Rich fine
-								bred real use too many good. She compliment unaffected
-								expression favourable any.
-							</p>
-							<a class="btn circle btn-theme angle effect btn-md" href="#"
-								>View All</a
-							>
-						</div>
-						<div class="col-lg-7 testimonial-box">
-							<div
-								class="testimonial-content testimonials-carousel owl-carousel owl-theme"
-							>
-								<!-- Single Item -->
-								<div class="item">
-									<p>
-										I feel very happy and be proud to connect with this
-										industry. I presume this is a very productive and
-										professional industry. I wish very good luck & success for
-										this industry
-									</p>
-									<div class="provider">
-										<div class="thumb">
-											<img src="assets/img/100x100.png" alt="Thumb" />
-										</div>
-										<div class="info">
-											<h5>Jones Adhor</h5>
-											<span>Architect</span>
-										</div>
-									</div>
-								</div>
-								<!-- End Single Item -->
-								<!-- Single Item -->
-								<div class="item">
-									<p>
-										I feel very happy and be proud to connect with this
-										industry. I presume this is a very productive and
-										professional industry. I wish very good luck & success for
-										this industry
-									</p>
-									<div class="provider">
-										<div class="thumb">
-											<img src="assets/img/100x100.png" alt="Thumb" />
-										</div>
-										<div class="info">
-											<h5>Mones Basel</h5>
-											<span>Designer</span>
-										</div>
-									</div>
-								</div>
-								<!-- End Single Item -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Testimonials Area -->
-
-		<!-- Start Blog Area 
-    ============================================= -->
-		<div class="blog-area default-padding-bottom bg-gray-responsive">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 offset-lg-2">
-						<div class="site-heading text-center">
-							<h4>Blog</h4>
-							<h2>Latest News</h2>
-							<p>
-								While mirth large of on front. Ye he greater related adapted
-								proceed entered an. Through it examine express promise no. Past
-								add size game cold girl off how old
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="blog-items">
-					<div class="row">
-						<!-- Single Item -->
-						<div class="col-lg-4 single-item">
-							<div class="item">
-								<div class="thumb">
-									<a href="#"
-										><img src="assets/img/800x600.png" alt="Thumb"
-									/></a>
-								</div>
-								<div class="info">
-									<div class="meta">
-										<ul>
-											<li>
-												<a href="#">
-													<img src="assets/img/100x100.png" alt="Thumb" />
-													<span>Spark</span>
-												</a>
-											</li>
-											<li><i class="fas fa-calendar"></i> 12 Nov, 2020</li>
-										</ul>
-									</div>
-									<div class="content">
-										<h4>
-											<a href="#"
-												>Conditions matter family active mutual put wishes
-												happen.
-											</a>
-										</h4>
-										<a class="btn circle btn-theme angle effect btn-sm" href="#"
-											>Read more</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Single Item -->
-						<!-- Single Item -->
-						<div class="col-lg-4 single-item">
-							<div class="item">
-								<div class="thumb">
-									<a href="#"
-										><img src="assets/img/800x600.png" alt="Thumb"
-									/></a>
-								</div>
-								<div class="info">
-									<div class="meta">
-										<ul>
-											<li>
-												<a href="#">
-													<img src="assets/img/100x100.png" alt="Thumb" />
-													<span>User</span>
-												</a>
-											</li>
-											<li><i class="fas fa-calendar"></i> 08 Aug, 2020</li>
-										</ul>
-									</div>
-									<div class="content">
-										<h4>
-											<a href="#"
-												>Middletons unsatiable for apartments boy delightful
-												unreserved.
-											</a>
-										</h4>
-										<a class="btn circle btn-theme angle effect btn-sm" href="#"
-											>Read more</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Single Item -->
-						<!-- Single Item -->
-						<div class="col-lg-4 single-item">
-							<div class="item">
-								<div class="thumb">
-									<a href="#"
-										><img src="assets/img/800x600.png" alt="Thumb"
-									/></a>
-								</div>
-								<div class="info">
-									<div class="meta">
-										<ul>
-											<li>
-												<a href="#">
-													<img src="assets/img/100x100.png" alt="Thumb" />
-													<span>Jones</span>
-												</a>
-											</li>
-											<li><i class="fas fa-calendar"></i> 25 Dec, 2020</li>
-										</ul>
-									</div>
-									<div class="content">
-										<h4>
-											<a href="#"
-												>Prudent you too his conduct feeling limited and the
-												Condition.</a
-											>
-										</h4>
-										<a class="btn circle btn-theme angle effect btn-sm" href="#"
-											>Read more</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Single Item -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Blog Area -->
-
-		<!-- Start Footer 
-    ============================================= -->
+		<!-- Start Footer-->
 		<footer class="bg-dark text-light">
-			<!-- Footer Top -->
-			<div class="footer-top text-center bg-dark text-light">
-				<div class="container">
-					<div class="row align-center">
-						<div class="logo col-lg-3 text-left">
-							<a href="#"><img src="assets/img/logo-light.png" alt="Logo" /></a>
-						</div>
-						<div class="subscribe-form col-lg-6">
-							<form action="#">
-								<input
-									type="email"
-									name="email"
-									class="form-control"
-									placeholder="Enter your e-mail here"
-								/>
-								<button type="submit"><i class="fa fa-paper-plane"></i></button>
-							</form>
-						</div>
-						<div class="col-lg-3 phone text-right">
-							<h4><i class="fas fa-phone"></i> +123 456 7890</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Footer Top -->
-
-			<div class="container">
-				<div class="f-items default-padding">
-					<div class="row">
-						<!-- Single Item -->
-						<div class="col-lg-4 col-md-6 single-item">
-							<div class="f-item contact">
-								<h4 class="widget-title">Contact Us</h4>
-								<p>5919 Trussville Crossings Pkwy, Birmingham AL 35235</p>
-								<ul>
-									<li>
-										<i class="fas fa-map-marker-alt"></i>
-										California, TX 70240
-									</li>
-									<li>
-										<i class="fas fa-envelope-open"></i>
-										Info@gmail.com
-									</li>
-								</ul>
-							</div>
-						</div>
-						<!-- End Single Item -->
-						<!-- Single Item -->
-						<div class="col-lg-2 col-md-6 single-item">
-							<div class="f-item link">
-								<h4 class="widget-title">Services</h4>
-								<ul>
-									<li>
-										<a href="#">Oil & Gas</a>
-									</li>
-									<li>
-										<a href="#">Chemical Research</a>
-									</li>
-									<li>
-										<a href="#">Industrial</a>
-									</li>
-									<li>
-										<a href="#">Construction</a>
-									</li>
-									<li>
-										<a href="#">Energy</a>
-									</li>
-									<li>
-										<a href="#">Mechanical</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<!-- End Single Item -->
-						<!-- Single Item -->
-						<div class="col-lg-2 col-md-6 single-item">
-							<div class="f-item link">
-								<h4 class="widget-title">Useful Links</h4>
-								<ul>
-									<li>
-										<a href="#">Latest News</a>
-									</li>
-									<li>
-										<a href="#">Careers</a>
-									</li>
-									<li>
-										<a href="#">General Inquiries</a>
-									</li>
-									<li>
-										<a href="#">Case Studies</a>
-									</li>
-									<li>
-										<a href="#">Contact Us</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<!-- End Single Item -->
-						<!-- Single Item -->
-						<div class="col-lg-4 col-md-6 single-item">
-							<div class="f-item opening-hours">
-								<h4 class="widget-title">Opening Hours</h4>
-								<ul>
-									<li>
-										<span>Sat - Sun : </span>
-										<div class="float-right">8.00 - 14.30</div>
-									</li>
-									<li>
-										<span>Monday :</span>
-										<div class="float-right">11.00 - 16.00</div>
-									</li>
-									<li>
-										<span>Wed - Thu :</span>
-										<div class="float-right">7.00 - 15.30</div>
-									</li>
-									<li>
-										<span> Friday : </span>
-										<div class="float-right closed">Closed</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<!-- End Single Item -->
-					</div>
-				</div>
-			</div>
-			<!-- Fixed Shape -->
-
-			<div class="footer-bottom">
-				<div class="container">
+			<div class="footer-bottom mt-5">
+				<div class="container pt-5 mt-5">
 					<div class="row">
 						<div class="col-lg-6">
 							<p>
@@ -954,8 +644,7 @@
 		</footer>
 		<!-- End Footer -->
 
-		<!-- jQuery Frameworks
-    ============================================= -->
+		<!-- Javascripts -->
 		<script src="assets/js/jquery-1.12.4.min.js"></script>
 		<script src="assets/js/popper.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>

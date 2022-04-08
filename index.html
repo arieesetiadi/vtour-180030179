@@ -32,6 +32,7 @@
 		<link href="assets/css/bootsnav.css" rel="stylesheet" />
 		<link href="assets/css/style.css" rel="stylesheet" />
 		<link href="assets/css/responsive.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<!-- ========== End Stylesheet ========== -->
 
 		<!-- ========== Google Fonts ========== -->
@@ -239,14 +240,14 @@
 			<div class="container">
 				<div class="about-box">
 					<div class="site-heading text-center">
-						<h2>Informasi</h2>
-						<p>
+						<h2 data-aos="fade-up">Informasi</h2>
+						<p data-aos="fade-up" data-aos-delay="50">
 							Informasi dan pengenalan singkat tentang Puri Agung Kerambitan,
 							Tabanan, Bali.
 						</p>
 					</div>
 					<div class="row">
-						<div class="col-lg-6 thumb-left">
+						<div class="col-lg-6 thumb-left" data-aos="fade-right">
 							<div class="thumb">
 								<img
 									src="assets/img/galeri/AWP09483.jpg"
@@ -257,7 +258,7 @@
 						</div>
 						<div class="col-lg-6">
 							<blockquote>
-								<p>
+								<p data-aos="fade-left" data-aos-delay="50">
 									Puri Agung Kerambitan merupakan salah satu puri di Bali yang
 									terletak di Kabupaten Tabanan, Kecamatan Kerambitan. Puri
 									Agung Kerambitan memiliki keunikan tersendiri dalam arsitektur
@@ -295,15 +296,15 @@
 				<div class="row">
 					<div class="col-lg-8 offset-lg-2">
 						<div class="site-heading text-center">
-							<h2>Keunikan</h2>
-							<p>
+							<h2 data-aos="fade-up">Keunikan</h2>
+							<p data-aos="fade-up" data-aos-delay="50">
 								Keunikan serta bangunan bersejarah yang terdapat di Puri Agung
 								Kerambitan, Tabanan, Bali.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="work-pro-items">
+				<div class="work-pro-items" data-aos="fade-up" data-aos-delay="50">
 					<div class="row">
 						<div class="col-lg-6 col-md-6 single-item">
 							<div class="item">
@@ -383,15 +384,19 @@
 				<div class="row">
 					<div class="col-lg-8 offset-lg-2">
 						<div class="site-heading text-center">
-							<h2 class="mt-5">Galeri</h2>
-							<p>
+							<h2 class="mt-5" data-aos="fade-up">Galeri</h2>
+							<p data-aos="fade-up" data-aos-delay="50">
 								Kumpulan foto serta video dari Puri Agung Kerambitan, Tabanan,
 								Bali.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="portfolio-box text-center">
+				<div
+					class="portfolio-box text-center"
+					data-aos="fade-left"
+					data-aos-delay="100"
+				>
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="portfolio-carousel owl-carousel owl-theme">
@@ -499,8 +504,8 @@
 				<div class="row">
 					<div class="col-lg-8 offset-lg-2">
 						<div class="site-heading text-center">
-							<h2>Tentang</h2>
-							<p>
+							<h2 data-aos="fade-up">Tentang</h2>
+							<p data-aos="fade-up" data-aos-delay="50">
 								Pihak yang terlibat dalam penelitian yang berjudul "Aplikasi
 								Virtual Tour 360 Degree Pengenalan Objek Wisata Puri Agung
 								Kerambitan Berbasis Web".
@@ -508,7 +513,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="team-items text-center">
+				<div
+					class="team-items text-center"
+					data-aos="fade-up"
+					data-aos-delay="50"
+				>
 					<div class="row">
 						<!-- Dospem I -->
 						<div class="col-lg-4 col-md-6 single-item">
@@ -615,23 +624,10 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<p>
-								&copy; Copyright 2019. All Rights Reserved by
-								<a href="#">validthemes</a>
+								&copy; Copyright 2022 | <a href="">Puri Agung Kerambitan</a>
 							</p>
 						</div>
-						<div class="col-lg-6 text-right">
-							<ul>
-								<li>
-									<a href="#">Terms of user</a>
-								</li>
-								<li>
-									<a href="#">License</a>
-								</li>
-								<li>
-									<a href="#">Support</a>
-								</li>
-							</ul>
-						</div>
+						<div class="col-lg-6 text-right"></div>
 					</div>
 				</div>
 			</div>
@@ -661,5 +657,10 @@
 		<script src="assets/js/count-to.js"></script>
 		<script src="assets/js/bootsnav.js"></script>
 		<script src="assets/js/main.js"></script>
+
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>

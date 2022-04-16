@@ -33,6 +33,7 @@
 		<link href="assets/css/style.css" rel="stylesheet" />
 		<link href="assets/css/responsive.css" rel="stylesheet" />
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="assets/css/popup.css" />
 		<!-- ========== End Stylesheet ========== -->
 
 		<!-- ========== Google Fonts ========== -->
@@ -40,6 +41,15 @@
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<link rel="shortcut icon" href="assets/img/Puri.ico" type="image/x-icon" />
 
 		<style>
 			* {
@@ -53,7 +63,7 @@
 		<div class="se-pre-con"></div>
 		<!-- Preloader Ends -->
 
-		<!-- Header -->
+		<!-- Top Bar -->
 		<header id="home">
 			<!-- Start Navigation -->
 			<nav
@@ -96,14 +106,16 @@
 						</button>
 						<a class="navbar-brand" href="index.html">
 							<img
-								src="assets/img/logo-light.png"
+								src="assets/img/Puri-bw.png"
 								class="logo logo-display"
 								alt="Logo"
+								width="100px"
 							/>
 							<img
-								src="assets/img/logo.png"
+								src="assets/img/Puri-color.png"
 								class="logo logo-scrolled"
 								alt="Logo"
+								width="100px"
 							/>
 						</a>
 					</div>
@@ -137,7 +149,7 @@
 			</nav>
 			<!-- End Navigation -->
 		</header>
-		<!-- End Header -->
+		<!-- End Top Bar -->
 
 		<!-- Start Beranda -->
 		<div id="beranda" class="banner-area inc-content text-medium top-pad-60">
@@ -414,7 +426,9 @@
 										</div>
 									</div>
 									<div class="info">
-										<h5><a href="#">Puri Agung Kerambitan</a></h5>
+										<h5>
+											<a> Puri Agung Kerambitan </a>
+										</h5>
 									</div>
 								</div>
 
@@ -431,7 +445,14 @@
 										</div>
 									</div>
 									<div class="info">
-										<h5><a href="#">Ancak Saji</a></h5>
+										<h5>
+											<a
+												id="btn-popup-1"
+												onclick="popup('btn-popup-1', 'modal-1')"
+												href="#popup"
+												>Ancak Saji
+											</a>
+										</h5>
 									</div>
 								</div>
 
@@ -448,7 +469,14 @@
 										</div>
 									</div>
 									<div class="info">
-										<h5><a href="#">Saren Agung</a></h5>
+										<h5>
+											<a
+												id="btn-popup-2"
+												onclick="popup('btn-popup-2', 'modal-2')"
+												href="#popup"
+												>Saren Agung
+											</a>
+										</h5>
 									</div>
 								</div>
 
@@ -465,7 +493,14 @@
 										</div>
 									</div>
 									<div class="info">
-										<h5><a href="#">Pawongan</a></h5>
+										<h5>
+											<a
+												id="btn-popup-3"
+												onclick="popup('btn-popup-3', 'modal-3')"
+												href="#popup"
+												>Pawongan
+											</a>
+										</h5>
 									</div>
 								</div>
 
@@ -482,7 +517,14 @@
 										</div>
 									</div>
 									<div class="info">
-										<h5><a href="#">Pemerajan Agung</a></h5>
+										<h5>
+											<a
+												id="btn-popup-4"
+												onclick="popup('btn-popup-4', 'modal-4')"
+												href="#popup"
+												>Pemerajan Agung
+											</a>
+										</h5>
 									</div>
 								</div>
 							</div>
@@ -640,6 +682,67 @@
 		</footer>
 		<!-- End Footer -->
 
+		<!-- Kumpulan Popup untuk Gallery -->
+		<!-- Popup Ancak Saji -->
+		<div id="modal-1" class="modal mt-5">
+			<!-- Modal content -->
+			<div class="modal-content container">
+				<div class="row d-flex justify-content-end">
+					<div class="col-1">
+						<span class="close d-inline-block">
+							<i class="fa-solid fa-circle-xmark"></i>
+						</span>
+					</div>
+				</div>
+				<p>Penjelasan Ancak Saji</p>
+			</div>
+		</div>
+
+		<!-- Popup Saren Agung -->
+		<div id="modal-2" class="modal mt-5">
+			<!-- Modal content -->
+			<div class="modal-content container">
+				<div class="row d-flex justify-content-end">
+					<div class="col-1">
+						<span class="close d-inline-block">
+							<i class="fa-solid fa-circle-xmark"></i>
+						</span>
+					</div>
+				</div>
+				<p>Penjelasan Saren Agung</p>
+			</div>
+		</div>
+
+		<!-- Popup Pawongan -->
+		<div id="modal-3" class="modal mt-5">
+			<!-- Modal content -->
+			<div class="modal-content container">
+				<div class="row d-flex justify-content-end">
+					<div class="col-1">
+						<span class="close d-inline-block">
+							<i class="fa-solid fa-circle-xmark"></i>
+						</span>
+					</div>
+				</div>
+				<p>Penjelasan Pawongan</p>
+			</div>
+		</div>
+
+		<!-- Popup Pemerajan Agung -->
+		<div id="modal-4" class="modal mt-5">
+			<!-- Modal content -->
+			<div class="modal-content container">
+				<div class="row d-flex justify-content-end">
+					<div class="col-1">
+						<span class="close d-inline-block">
+							<i class="fa-solid fa-circle-xmark"></i>
+						</span>
+					</div>
+				</div>
+				<p>Penjelasan Pemerajan Agung</p>
+			</div>
+		</div>
+
 		<!-- Javascripts -->
 		<script src="assets/js/jquery-1.12.4.min.js"></script>
 		<script src="assets/js/popper.min.js"></script>
@@ -657,6 +760,7 @@
 		<script src="assets/js/count-to.js"></script>
 		<script src="assets/js/bootsnav.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/popup.js"></script>
 
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>

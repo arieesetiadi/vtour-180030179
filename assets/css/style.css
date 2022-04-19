@@ -3574,6 +3574,10 @@ body,
   z-index: -1;
 }
 
+.bg-green{
+  background: #2f4f44 none repeat scroll 0 0 !important;
+}
+
 .portfolio-area .portfolio-items-area .mix-item-menu button {
     display: inline-block;
     background: transparent;

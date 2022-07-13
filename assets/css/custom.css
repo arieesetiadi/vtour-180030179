@@ -20,12 +20,8 @@ h6,
 p,
 span,
 blockquote,
-a {
-    font-family: 'Poppins', sans-serif !important;
-}
-
+a,
 i {
-    /* font-family: 'Poppins', sans-serif !important; */
     font-family: 'Inter', sans-serif;
 }
 

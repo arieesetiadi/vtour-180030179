@@ -28,7 +28,7 @@ i {
 .box-pengelola {
     padding: 100px 150px 150px 150px;
     /* padding: 70px 100px 70px 70px; */
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 30px 30px 0;
 }
 
 .box-pengelola img {
@@ -41,4 +41,67 @@ i {
 
 .box-biaya {
     padding: 80px 150px 100px 150px;
+}
+
+.box-mulai-jelajah {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 18%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.850);
+    transition: 500ms;
+}
+
+.box-mulai-jelajah:hover {
+    width: 25%;
+    background: rgb(0, 0, 0);
+}
+
+.box-mulai-jelajah:hover span {
+    display: block;
+    opacity: 100;
+    margin-right: 20px;
+    font-size: 120%;
+}
+
+.link-mulai-jelajah {
+    height: 10%;
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    margin-right: 20px;
+    margin-left: 80px;
+    transition: 500ms;
+}
+
+.link-mulai-jelajah span {
+    vertical-align: middle;
+    opacity: 0;
+    font-family: 'Poppins', sans-serif !important;
+    transition: 500ms;
+}
+
+.link-mulai-jelajah i {
+    z-index: 1;
+    transition: 500ms;
+    animation: slide1 1s ease-in-out infinite;
+}
+
+/* Arrow animation */
+@keyframes slide1 {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(10px, 0);
+    }
+}
+
+iframe#drone-view {
+    position: absolute;
+    left: 0;
 }

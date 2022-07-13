@@ -614,7 +614,7 @@ button:focus {
 }
 
 .bg-dark {
-  background: #022147 none repeat scroll 0 0 !important;
+  background: #2f4f44 none repeat scroll 0 0 !important;
 }
 
 .bg-dark-hard {
@@ -675,7 +675,7 @@ button:focus {
 
 .site-heading h2 {
   display: inline-block;
-  font-weight: 600;
+  /* font-weight: 600; */
   padding-bottom: 20px;
   margin-bottom: 0;
   position: relative;

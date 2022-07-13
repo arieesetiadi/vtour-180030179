@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 
-a,
+/* a, */
 h1,
 h2 {
     scroll-behavior: smooth;
@@ -14,7 +14,35 @@ h2 {
     /* font-family: 'Poppins', sans-serif !important; */
 }
 
+h4,
+h5,
+h6,
+p,
+span,
+blockquote,
+a {
+    font-family: 'Poppins', sans-serif !important;
+}
+
 i {
     /* font-family: 'Poppins', sans-serif !important; */
     font-family: 'Inter', sans-serif;
+}
+
+.box-pengelola {
+    padding: 100px;
+    /* padding: 70px 100px 70px 70px; */
+    border-radius: 20px 0 0 20px;
+}
+
+.box-pengelola img {
+    border-radius: 5px;
+}
+
+.box-pengelola * {
+    color: rgb(231, 231, 231);
+}
+
+.box-biaya {
+    padding: 90px;
 }

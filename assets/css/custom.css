@@ -26,9 +26,9 @@ i {
 }
 
 .box-pengelola {
-    padding: 100px;
+    padding: 100px 150px 150px 150px;
     /* padding: 70px 100px 70px 70px; */
-    border-radius: 20px 0 0 20px;
+    border-radius: 0 20px 20px 0;
 }
 
 .box-pengelola img {
@@ -40,5 +40,5 @@ i {
 }
 
 .box-biaya {
-    padding: 90px;
+    padding: 80px 150px 100px 150px;
 }

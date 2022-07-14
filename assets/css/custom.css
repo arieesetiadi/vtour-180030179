@@ -10,7 +10,7 @@
 h1,
 h2 {
     scroll-behavior: smooth;
-    font-family: 'Vidaloka', serif !important;
+    font-family: 'Vidaloka', serif;
     /* font-family: 'Poppins', sans-serif !important; */
 }
 
@@ -47,10 +47,11 @@ i {
     position: absolute;
     background-color: black;
     height: 100%;
-    width: 18%;
+    width: 20%;
     z-index: 1;
     background: rgba(0, 0, 0, 0.850);
     transition: 500ms;
+    font-family: 'Vidaloka', sans-serif !important;
 }
 
 .box-mulai-jelajah:hover {
@@ -65,20 +66,37 @@ i {
     font-size: 120%;
 }
 
+.text-mulai-jelajah {
+    position: absolute;
+    top: 30%;
+    padding: 0 15%;
+    z-index: 1;
+}
+
+.text-mulai-jelajah h6 {
+    transition: 500ms;
+    font-size: 170%;
+}
+
+.text-mulai-jelajah p {
+    transition: 500ms;
+    font-size: 105%;
+}
+
 .link-mulai-jelajah {
     height: 10%;
     display: inline-block;
     position: absolute;
-    top: 45%;
+    top: 75%;
     margin-right: 20px;
-    margin-left: 80px;
+    margin-left: 27.5%;
     transition: 500ms;
 }
 
 .link-mulai-jelajah span {
+    z-index: 1;
     vertical-align: middle;
     opacity: 0;
-    font-family: 'Poppins', sans-serif !important;
     transition: 500ms;
 }
 

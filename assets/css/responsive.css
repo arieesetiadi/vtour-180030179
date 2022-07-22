@@ -57,7 +57,7 @@
 
   .about-area .thumb-left {
     padding-right: 15px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   }
 
   .about-area .experiecne strong {
@@ -158,7 +158,7 @@
     margin-top: 30px;
   }
 
-  .projects-area .project-item.projects-carousel .owl-nav .owl-prev, 
+  .projects-area .project-item.projects-carousel .owl-nav .owl-prev,
   .projects-area .project-item.projects-carousel .owl-nav .owl-next {
     left: -50px;
   }
@@ -172,7 +172,7 @@
     width: 100%;
   }
 
-   /* Portfolio */
+  /* Portfolio */
   .portfolio-area .gallery-items.colums-2 .pf-item,
   .portfolio-area .gallery-items.colums-3 .pf-item,
   .portfolio-area .gallery-items.colums-4 .pf-item {
@@ -279,7 +279,8 @@
     padding: 30px 0;
   }
 
-  .footer-top .text-left, .footer-top .text-right {
+  .footer-top .text-left,
+  .footer-top .text-right {
     text-align: center !important;
   }
 
@@ -411,7 +412,9 @@
 
   /* Banner Area */
 
-  body, .banner-area, .banner-area div {
+  body,
+  .banner-area,
+  .banner-area div {
     height: auto;
   }
 
@@ -519,7 +522,7 @@
 
   .about-area .thumb-left {
     padding-right: 15px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   .about-area .experiecne strong {
@@ -635,7 +638,7 @@
     margin-top: 30px;
   }
 
-   .project-details-area .content .project-info ul li {
+  .project-details-area .content .project-info ul li {
     width: 100%;
   }
 
@@ -748,7 +751,7 @@
     margin-top: 5px;
   }
 
-  .blog-area .blog-content .post-tags, 
+  .blog-area .blog-content .post-tags,
   .blog-area .blog-content .share {
     display: block;
     text-align: center;
@@ -793,7 +796,7 @@
     padding-left: 0;
   }
 
-  .comments-list .commen-item .content, 
+  .comments-list .commen-item .content,
   .comments-list .commen-item .avatar {
     display: block;
     text-align: center;
@@ -890,7 +893,8 @@
     padding: 30px 0;
   }
 
-  .footer-top .text-left, .footer-top .text-right {
+  .footer-top .text-left,
+  .footer-top .text-right {
     text-align: center !important;
   }
 
@@ -931,6 +935,7 @@
 
 /* Custom Layout: 767px. */
 @media only screen and (min-width: 767px) {
+
   /* Attr Nav */
   .attr-nav {
     display: inline-block;
@@ -939,6 +944,7 @@
 
 /* Custom Layout: 500px */
 @media only screen and (min-width: 500px) and (max-width: 767px) {
+
   /* Projects */
   .projects-area .info ul {
     display: flex;
@@ -1014,7 +1020,7 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
   /* Blog */
-  .comments-list .commen-item .content, 
+  .comments-list .commen-item .content,
   .comments-list .commen-item .avatar {
     display: table-cell;
     text-align: left;

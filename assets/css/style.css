@@ -1943,7 +1943,7 @@ body,
   content: "";
   height: 100%;
   width: 100%;
-  background: url(assets/img/pattern.png);
+  /* background: url(assets/img/pattern.png); */
   background-repeat: no-repeat;
   z-index: -1;
   background-position: right top;
@@ -2066,7 +2066,7 @@ body,
   content: "";
   height: 300px;
   width: 300px;
-  background: url(assets/img/pattern.png);
+  /* background: url(assets/img/pattern.png); */
   background-repeat: no-repeat;
   background-position: left top;
 }
@@ -5549,6 +5549,6 @@ footer .opening-hours li .closed {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background: url(assets/img/preloader.gif) center no-repeat #fff;
+  /* background: url(assets/img/preloader.gif) center no-repeat #fff; */
   text-align: center;
 }

@@ -801,16 +801,6 @@ button:focus {
   z-index: -1;
 }
 
-.shape-bg-pengelola {
-  position: absolute;
-  left: 0;
-  /* top: 100%; */
-  /* bottom: 120px; */
-  bottom: 7%;
-  width: 100%;
-  z-index: -1;
-}
-
 .shape-bg img {
   width: 100%;
 }

@@ -33,12 +33,28 @@ i {
     border-radius: 0 30px 30px 0;
 }
 
+.box-pengelola p:nth-child(2) {
+    text-align: justify;
+    margin-right: 150px;
+}
+
 .box-pengelola img {
     border-radius: 5px;
+    padding-right: 150px;
 }
 
 .box-pengelola * {
     color: rgb(231, 231, 231);
+}
+
+.shape-bg-pengelola {
+    position: absolute;
+    left: 0;
+    /* top: 100%; */
+    /* bottom: 120px; */
+    bottom: 7%;
+    width: 100%;
+    z-index: -1;
 }
 
 .box-biaya {
@@ -46,6 +62,15 @@ i {
     padding-right: 150px;
     padding-left: 150px;
     padding-bottom: 10px;
+}
+
+#vtour {
+    position: relative;
+    height: 100vh;
+}
+
+#vtour * {
+    color: white;
 }
 
 .box-mulai-jelajah {
@@ -102,6 +127,7 @@ i {
     z-index: 1;
     vertical-align: middle;
     opacity: 0;
+    margin-right: 0;
     transition: 500ms;
 }
 
@@ -109,6 +135,24 @@ i {
     z-index: 1;
     transition: 500ms;
     animation: slide1 1s ease-in-out infinite;
+}
+
+#google-maps {
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+#box-keunikan {
+    padding: 0 100px
+}
+
+#box-keunikan .item {
+    min-height: 650px;
+}
+
+.footer-bottom .container {
+    height: 50px;
+    padding-top: 26px;
 }
 
 /* Arrow animation */
@@ -127,4 +171,116 @@ i {
 iframe#drone-view {
     position: absolute;
     left: 0;
+}
+
+/* Mobile */
+@media (max-width: 575.98px) {
+    .navbar-header {
+        position: relative;
+        right: 100;
+    }
+
+
+    .box-pengelola {
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-left: 25px;
+        padding-bottom: 50px;
+        border-radius: 0;
+    }
+
+    .box-pengelola p:nth-child(2) {
+        text-align: justify;
+        margin-right: 10px;
+    }
+
+    .box-pengelola img {
+        padding-right: 10px;
+    }
+
+    .shape-bg-pengelola {
+        position: absolute;
+        left: 0;
+        /* top: 100%; */
+        /* bottom: 120px; */
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .box-biaya {
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-left: 25px;
+        padding-bottom: 30px;
+    }
+
+    #google-maps {
+        margin-top: 50px;
+        padding: 0 25px;
+    }
+
+    #google-maps p:nth-child(2) {
+        display: block;
+    }
+
+    #iframe-maps {
+        height: 350px;
+    }
+
+    #box-keunikan {
+        padding: 0 25px
+    }
+
+    #box-keunikan .item {
+        min-height: 0;
+        padding: 50px 30px;
+    }
+
+    .box-mulai-jelajah {
+        width: 50%;
+        padding: 03%;
+    }
+
+    .box-mulai-jelajah span {
+        display: block;
+        opacity: 100;
+        margin-right: 20px;
+        font-size: 120%;
+    }
+
+    .text-mulai-jelajah {
+        position: absolute;
+        top: 0;
+        padding: 0 10%;
+        z-index: 1;
+    }
+
+    .text-mulai-jelajah h6 {
+        transition: 500ms;
+        font-size: 170%;
+    }
+
+    .text-mulai-jelajah p {
+        display: none;
+    }
+
+    .link-mulai-jelajah {
+        height: 10%;
+        display: inline-block;
+        position: absolute;
+        top: 75%;
+        margin-right: 10%px;
+        margin-left: 10%;
+        transition: 500ms;
+    }
+
+    .footer-bottom .container {
+        height: 20px;
+        padding-top: 0px;
+    }
+
+    #vtour {
+        height: 300px;
+    }
 }

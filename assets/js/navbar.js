@@ -1,3 +1,7 @@
+const navbar = document.getElementById('navbar-menu')
+const hMenu = document.getElementById('humberger-menu')
+const hMenuIcon = document.getElementById('humberger-menu-icon')
+
 const beranda = document.getElementById('beranda')
 const informasi = document.getElementById('informasi')
 const vtour = document.getElementById('vtour')
@@ -8,6 +12,10 @@ const tentang = document.getElementById('tentang')
 assignActive('link-beranda')
 
 $('.navbar-link').on('click', function () {
+    navbar.classList.remove('show')
+    hMenu.classList.add('collapsed')
+    hMenuIcon.classList.replace('fa-times', 'fa-bars')
+
     clearActive()
 })
 

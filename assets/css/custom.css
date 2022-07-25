@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
     scroll-behavior: smooth;
@@ -10,7 +10,7 @@
 h1,
 h2 {
     scroll-behavior: smooth;
-    font-family: 'Vidaloka', serif;
+    font-family: "Vidaloka", serif;
     /* font-family: 'Poppins', sans-serif !important; */
 }
 
@@ -22,7 +22,7 @@ span,
 blockquote,
 a,
 i {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .box-pengelola {
@@ -79,9 +79,9 @@ i {
     height: 100%;
     width: 20%;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.850);
+    background: rgba(0, 0, 0, 0.85);
     transition: 500ms;
-    font-family: 'Vidaloka', sans-serif !important;
+    font-family: "Vidaloka", sans-serif !important;
 }
 
 .box-mulai-jelajah:hover {
@@ -143,7 +143,7 @@ i {
 }
 
 #box-keunikan {
-    padding: 0 100px
+    padding: 0 100px;
 }
 
 #box-keunikan .item {
@@ -155,9 +155,15 @@ i {
     padding-top: 26px;
 }
 
+#main-tour {
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 /* Arrow animation */
 @keyframes slide1 {
-
     0%,
     100% {
         transform: translate(0, 0);
@@ -179,7 +185,6 @@ iframe#drone-view {
         position: relative;
         right: 100;
     }
-
 
     .box-pengelola {
         padding-top: 50px;
@@ -229,7 +234,7 @@ iframe#drone-view {
     }
 
     #box-keunikan {
-        padding: 0 25px
+        padding: 0 25px;
     }
 
     #box-keunikan .item {
@@ -254,6 +259,11 @@ iframe#drone-view {
         top: 0;
         padding: 0 10%;
         z-index: 1;
+    }
+
+    .box-mulai-jelajah:hover {
+        width: 50%;
+        /* background: rgb(0, 0, 0); */
     }
 
     .text-mulai-jelajah h6 {
@@ -281,6 +291,19 @@ iframe#drone-view {
     }
 
     #vtour {
+        padding-top: 70px;
         height: 300px;
+    }
+
+    #informasi {
+        padding-top: 100px;
+    }
+    
+    #keunikan {
+        padding-top: 100px;
+    }
+
+    #tentang {
+        padding-top: 100px;
     }
 }

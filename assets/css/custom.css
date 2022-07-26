@@ -162,6 +162,10 @@ i {
     height: 100vh;
 }
 
+.img-spot {
+    object-fit: cover;
+}
+
 /* Arrow animation */
 @keyframes slide1 {
     0%,

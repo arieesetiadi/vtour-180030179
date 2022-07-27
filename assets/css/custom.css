@@ -166,6 +166,21 @@ i {
     object-fit: cover;
 }
 
+.thumbnail-spot a{
+    display: block;
+    border-radius: 5px;
+}
+
+.thumbnail-spot img{
+    border-radius: 5px;
+}
+
+.thumbnail-spot h4{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
 /* Arrow animation */
 @keyframes slide1 {
     0%,

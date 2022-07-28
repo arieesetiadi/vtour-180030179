@@ -162,23 +162,50 @@ i {
     height: 100vh;
 }
 
-.img-spot {
-    object-fit: cover;
+.thumbnail-spot {
+    /* height: 200px; */
+    padding: 10px;
 }
 
 .thumbnail-spot a{
+    position: relative;
     display: block;
+    height: 170px;
     border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .thumbnail-spot img{
-    border-radius: 5px;
+    position: relative;
+    object-fit: cover;
 }
 
-.thumbnail-spot h4{
+.thumbnail-spot span{
     margin-top: 10px;
     width: 100%;
     text-align: center;
+}
+
+.thumbnail-spot-overlay {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: ease-in-out .5s;
+}
+
+.thumbnail-spot-overlay h6 {
+    margin-top: 3.2em;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.thumbnail-spot a:hover .thumbnail-spot-overlay{
+    opacity: 1;
 }
 
 /* Arrow animation */

@@ -167,7 +167,7 @@ i {
     padding: 10px;
 }
 
-.thumbnail-spot a{
+.thumbnail-spot a {
     position: relative;
     display: block;
     height: 170px;
@@ -176,12 +176,12 @@ i {
     cursor: pointer;
 }
 
-.thumbnail-spot img{
+.thumbnail-spot img {
     position: relative;
     object-fit: cover;
 }
 
-.thumbnail-spot span{
+.thumbnail-spot span {
     margin-top: 10px;
     width: 100%;
     text-align: center;
@@ -195,7 +195,7 @@ i {
     height: 100%;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.5);
-    transition: ease-in-out .5s;
+    transition: ease-in-out 0.5s;
 }
 
 .thumbnail-spot-overlay h6 {
@@ -204,8 +204,30 @@ i {
     font-size: 1.5rem;
 }
 
-.thumbnail-spot a:hover .thumbnail-spot-overlay{
+.thumbnail-spot a:hover .thumbnail-spot-overlay {
     opacity: 1;
+}
+
+.img-youtube-thumbail {
+    object-fit: cover;
+}
+
+.modal {
+    max-height: 80vh;
+    top: 6vh;
+    min-width: 55vw;
+    background-color: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+    overflow-y: hidden;
+}
+
+.modal img {
+    max-height: 80vh !important;
+    object-fit: contain !important;
+}
+
+.modal a.close-modal {
+    display: none !important;
 }
 
 /* Arrow animation */
@@ -344,7 +366,7 @@ iframe#drone-view {
     #informasi {
         padding-top: 100px;
     }
-    
+
     #keunikan {
         padding-top: 100px;
     }

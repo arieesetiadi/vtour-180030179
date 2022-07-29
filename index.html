@@ -28,7 +28,6 @@
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="assets/css/popup.css" />
 	<link rel="stylesheet" href="assets/css/custom.css">
-	<link rel="stylesheet" href="assets/css/popup-spot.css">
 	<!-- ========== End Stylesheet ========== -->
 
 	<!-- ========== Google Fonts ========== -->
@@ -37,6 +36,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
 		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- Remember to include jQuery :) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
 	<link rel="shortcut icon" href="assets/img/Puri.ico" type="image/x-icon" />
 </head>
@@ -651,7 +657,7 @@
 				<div class="thumb">
 					<div class="thumb-box">
 						<img src="assets/img/galeri/Ancak Saji.jpg" alt="Thumb" height="450px" width="100%"
-							class="img-spot" />
+							class="img-youtube-thumbail" />
 						<a href="https://www.youtube.com/watch?v=4ky5lAcxFUg"
 							class="popup-youtube light video-play-button item-center">
 							<i class="fa fa-play"></i>
@@ -776,46 +782,194 @@
 									<div class="row">
 										<!-- Saren Belanda -->
 										<div class="thumbnail-spot col-lg-6">
-											<a class="shadow-sm">
+											<a class="shadow-sm" href="#spotSarenBelanda" rel="modal:open">
 												<img src="assets/img/keunikan/spot/Saren Belanda/Pawongan.jpg"
 													alt="Thumbnail Saren Belanda" width="100%" class="img-spot">
 												<div class="thumbnail-spot-overlay">
 													<h6 class="text-center">Saren Belanda</h6>
 												</div>
 											</a>
+											<!-- Popup Saren Belanda -->
+											<div id="spotSarenBelanda" class="modal">
+												<div id="carouselSarenBelanda" class="carousel slide"
+													data-ride="carousel">
+													<div class="carousel-inner">
+														<div class="carousel-item active">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Saren Belanda/WhatsApp Image 2022-07-26 at 23.46.52.jpeg"
+																alt="First slide">
+														</div>
+														<div class="carousel-item">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Saren Belanda/WhatsApp Image 2022-07-26 at 23.46.54 (1).jpeg"
+																alt="Second slide">
+														</div>
+														<div class="carousel-item">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Saren Belanda/WhatsApp Image 2022-07-26 at 23.46.55 (2).jpeg"
+																alt="Third slide">
+														</div>
+														<div class="carousel-item">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Saren Belanda/WhatsApp Image 2022-07-26 at 23.46.55.jpeg"
+																alt="Third slide">
+														</div>
+														<div class="carousel-item">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Saren Belanda/WhatsApp Image 2022-07-26 at 23.46.55 (1).jpeg"
+																alt="Third slide">
+														</div>
+													</div>
+													<a class="carousel-control-prev" href="#carouselSarenBelanda"
+														role="button" data-slide="prev">
+														<span class="carousel-control-prev-icon"
+															aria-hidden="true"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="carousel-control-next" href="#carouselSarenBelanda"
+														role="button" data-slide="next">
+														<span class="carousel-control-next-icon"
+															aria-hidden="true"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
 										</div>
 
 										<!-- Saren Agung -->
 										<div class="thumbnail-spot col-lg-6">
-											<a class="shadow-sm">
+											<a class="shadow-sm" rel="modal:open" href="#spotSarenAgung">
 												<img src="assets/img/keunikan/spot/Saren Agung/Saren Agung.jpg"
 													alt="Thumbnail Saren Agung" width="100%" class="img-spot">
 												<div class="thumbnail-spot-overlay">
 													<h6 class="text-center">Saren Agung</h6>
 												</div>
 											</a>
+											<!-- Popup Saren Agung -->
+											<div id="spotSarenAgung" class="modal">
+												<div id="carouselSarenAgung" class="carousel slide"
+													data-ride="carousel">
+													<div class="carousel-inner">
+														<div class="carousel-item active">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Saren Agung/WhatsApp Image 2022-07-26 at 23.46.49.jpeg"
+																alt="First slide">
+														</div>
+														<div class="carousel-item">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Saren Agung/WhatsApp Image 2022-07-26 at 23.46.50 (1).jpeg"
+																alt="Second slide">
+														</div>
+														<div class="carousel-item">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Saren Agung/WhatsApp Image 2022-07-26 at 23.46.50.jpeg"
+																alt="Third slide">
+														</div>
+														<div class="carousel-item">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Saren Agung/WhatsApp Image 2022-07-26 at 23.46.51 (1).jpeg"
+																alt="Third slide">
+														</div>
+													</div>
+													<a class="carousel-control-prev" href="#carouselSarenAgung"
+														role="button" data-slide="prev">
+														<span class="carousel-control-prev-icon"
+															aria-hidden="true"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="carousel-control-next" href="#carouselSarenAgung"
+														role="button" data-slide="next">
+														<span class="carousel-control-next-icon"
+															aria-hidden="true"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
 										</div>
 
 										<!-- Ancak Saji -->
 										<div class="thumbnail-spot col-lg-6">
-											<a class="shadow-sm">
+											<a class="shadow-sm" rel="modal:open" href="#spotAncakSaji">
 												<img src="assets/img/keunikan/spot/Ancak Saji/Ancak Saji.jpg"
 													alt="Thumbnail Ancak Saji" width="100%" class="img-spot">
 												<div class="thumbnail-spot-overlay">
 													<h6 class="text-center">Ancak Saji</h6>
 												</div>
 											</a>
+											<!-- Popup Ancak Saji -->
+											<div id="spotAncakSaji" class="modal">
+												<div id="carouselAncakSaji" class="carousel slide" data-ride="carousel">
+													<div class="carousel-inner">
+														<div class="carousel-item active">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Ancak Saji/WhatsApp Image 2022-07-26 at 23.46.53 (1).jpeg"
+																alt="First slide">
+														</div>
+														<div class="carousel-item">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Ancak Saji/WhatsApp Image 2022-07-26 at 23.46.53 (2).jpeg"
+																alt="Second slide">
+														</div>
+														<div class="carousel-item">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Ancak Saji/WhatsApp Image 2022-07-26 at 23.46.54.jpeg"
+																alt="Third slide">
+														</div>
+													</div>
+													<a class="carousel-control-prev" href="#carouselAncakSaji"
+														role="button" data-slide="prev">
+														<span class="carousel-control-prev-icon"
+															aria-hidden="true"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="carousel-control-next" href="#carouselAncakSaji"
+														role="button" data-slide="next">
+														<span class="carousel-control-next-icon"
+															aria-hidden="true"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
 										</div>
 
 										<!-- Tandakan -->
 										<div class="thumbnail-spot col-lg-6">
-											<a class="shadow-sm">
+											<a class="shadow-sm" rel="modal:open" href="#spotTandakan">
 												<img src=" assets/img/keunikan/spot/Tandakan/Tandakan.jpg"
 													alt="Thumbnail Tandakan" width="100%" class="img-spot">
 												<div class="thumbnail-spot-overlay">
 													<h6 class="text-center">Tandakan</h6>
 												</div>
 											</a>
+											<!-- Popup Tandakan -->
+											<div id="spotTandakan" class="modal">
+												<div id="carouselTandakan" class="carousel slide" data-ride="carousel">
+													<div class="carousel-inner">
+														<div class="carousel-item active">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Tandakan/WhatsApp Image 2022-07-26 at 23.46.52 (1).jpeg"
+																alt="First slide">
+														</div>
+														<div class="carousel-item">
+															<img class="d-block w-100"
+																src="assets/img/keunikan/spot/Tandakan/WhatsApp Image 2022-07-26 at 23.46.53.jpeg"
+																alt="Second slide">
+														</div>
+													</div>
+													<a class="carousel-control-prev" href="#carouselTandakan"
+														role="button" data-slide="prev">
+														<span class="carousel-control-prev-icon"
+															aria-hidden="true"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="carousel-control-next" href="#carouselTandakan"
+														role="button" data-slide="next">
+														<span class="carousel-control-next-icon"
+															aria-hidden="true"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -958,10 +1112,6 @@
 	</footer>
 	<!-- End Footer -->
 
-	<!-- Kumpulan popup untuk spot foto di Keunikan -->
-	<!-- || -->
-	<!-- Popup spot foto Saren Belanda -->
-
 	<!-- Javascripts -->
 	<script src="assets/js/jquery-1.12.4.min.js"></script>
 	<script src="assets/js/popper.min.js"></script>
@@ -981,7 +1131,6 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/popup.js"></script>
 	<script src="assets/js/navbar.js"></script>
-	<script src="assets/js/popup-spot.js"></script>
 
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
